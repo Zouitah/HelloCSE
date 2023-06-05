@@ -1,0 +1,11 @@
+.hidden-link {
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+}
+
+.hidden-link:hover,.hidden-link:active,.hidden-link:focus,.hidden-link:visited {
+  color: inherit;
+  text-decoration: none;
+}
