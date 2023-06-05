@@ -34,7 +34,7 @@ class StarController extends Controller
             'firstname' => 'required|max:255',
             'lastname' => 'required|max:255',
             'image' => 'required',
-            'image.*' => 'image|mimes:jpg,jpeg,png',
+            'image' => 'image|mimes:jpg,jpeg,png',
             'description' => 'required',
         ]);
         
